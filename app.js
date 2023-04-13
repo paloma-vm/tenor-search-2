@@ -49,10 +49,10 @@ app.get('/', (req, res) => {
       }).catch(console.error);
 })
 
-// app.get('/', (req, res) => {
-//   console.log(req.query)
-//   res.render('home')
-// })
+app.get('/', (req, res) => {
+  console.log(req.query)
+  res.render('home')
+})
 
 // app.get('/', (req, res) => {
 //     res.send('Hello Squirrel');
